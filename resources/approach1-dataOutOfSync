@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-05T07:55:52.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ZV24WWtJ37l0BCKqKzei" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-05T08:01:48.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="tfmCcWCsqGYUy5JchXUV" version="13.6.0" type="github">
   <diagram id="wT2GgSkuBDLxv_z1iLYP" name="Page-1">
     <mxGraphModel dx="1298" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
           <mxGeometry x="280" y="475" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NaBVbSd65uwywaJbpzaD-21" value="BPEL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="145" y="90" width="50" height="20" as="geometry" />
+          <mxGeometry x="160" y="100" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NaBVbSd65uwywaJbpzaD-22" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -148,6 +148,60 @@
         </mxCell>
         <mxCell id="NaBVbSd65uwywaJbpzaD-38" value="redis/nosql" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="690" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NaBVbSd65uwywaJbpzaD-44" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NaBVbSd65uwywaJbpzaD-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204.5" y="200" as="sourcePoint" />
+            <mxPoint x="204.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaBVbSd65uwywaJbpzaD-45" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NaBVbSd65uwywaJbpzaD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204.5" y="300" as="sourcePoint" />
+            <mxPoint x="205" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaBVbSd65uwywaJbpzaD-46" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NaBVbSd65uwywaJbpzaD-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204.5" y="410" as="sourcePoint" />
+            <mxPoint x="205" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaBVbSd65uwywaJbpzaD-48" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="150" as="sourcePoint" />
+            <mxPoint x="670" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaBVbSd65uwywaJbpzaD-49" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="260" as="sourcePoint" />
+            <mxPoint x="670" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaBVbSd65uwywaJbpzaD-50" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="NaBVbSd65uwywaJbpzaD-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="370" as="sourcePoint" />
+            <mxPoint x="290" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaBVbSd65uwywaJbpzaD-51" value="" style="endArrow=classic;html=1;entryX=0.766;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NaBVbSd65uwywaJbpzaD-9" target="NaBVbSd65uwywaJbpzaD-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="410" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
