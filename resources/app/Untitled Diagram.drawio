@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-30T15:24:51.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zY3nj24jnwVADGbElWYy" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-30T17:15:41.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="D7XNvYbve68BCSNK_wWd" version="14.1.2" type="github">
   <diagram id="4xm_vAh3W-rZlw4PpbCW" name="Page-1">
     <mxGraphModel dx="1298" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
         <mxCell id="cq1kmCE_dH1wWy3KrnaW-14" value="Consume" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="250" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cq1kmCE_dH1wWy3KrnaW-22" value="(Obj -&amp;gt; {&quot;sys&quot;:&quot;125&quot;, &quot;dis&quot;:&quot;85&quot;, &quot;timestamp&quot;:&quot;12435&quot;, &quot;token&quot;: &quot;erts53tsg&quot;})" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="140" width="410" height="20" as="geometry" />
+        <mxCell id="cq1kmCE_dH1wWy3KrnaW-22" value="(Obj -&amp;gt; {&quot;sys&quot;:&quot;125&quot;, &quot;dis&quot;:&quot;85&quot;, &quot;timestamp&quot;:&quot;12435&quot;, &quot;deviceId&quot;: &quot;erts53tsg&quot;})" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="145" y="140" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cq1kmCE_dH1wWy3KrnaW-23" value="DashboardService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="300" width="120" height="80" as="geometry" />
@@ -64,8 +64,8 @@
         <mxCell id="cq1kmCE_dH1wWy3KrnaW-30" value="DataProcessor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cq1kmCE_dH1wWy3KrnaW-31" value="DB (postgres/TSDB)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="80" y="450" width="60" height="80" as="geometry" />
+        <mxCell id="cq1kmCE_dH1wWy3KrnaW-31" value="ReadingDB (postgres/TSDB)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="60" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cq1kmCE_dH1wWy3KrnaW-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.367;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cq1kmCE_dH1wWy3KrnaW-30" target="cq1kmCE_dH1wWy3KrnaW-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -82,8 +82,8 @@
         <mxCell id="cq1kmCE_dH1wWy3KrnaW-35" value="AuthService (user info, device info, login info, etc)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="300" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cq1kmCE_dH1wWy3KrnaW-36" value="DB (postgres)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="420" y="440" width="60" height="80" as="geometry" />
+        <mxCell id="cq1kmCE_dH1wWy3KrnaW-36" value="UserDB (postgres)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="420" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cq1kmCE_dH1wWy3KrnaW-37" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.383;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cq1kmCE_dH1wWy3KrnaW-35" target="cq1kmCE_dH1wWy3KrnaW-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -118,10 +118,22 @@
         <mxCell id="cq1kmCE_dH1wWy3KrnaW-52" value="HealthMonitorSystem" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="250" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rCQl3Q3nnH_-xnrQwZ20-2" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="rCQl3Q3nnH_-xnrQwZ20-2" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="340" as="sourcePoint" />
             <mxPoint x="380" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aoScQVs7jY0kst0fSOM-1" value="Device" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="20" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9aoScQVs7jY0kst0fSOM-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" target="cq1kmCE_dH1wWy3KrnaW-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="350" as="sourcePoint" />
+            <mxPoint x="420" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="505" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
