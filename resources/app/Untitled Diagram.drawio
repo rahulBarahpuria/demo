@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T05:13:31.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JUkl6tCaDOJA3yovy6lK" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T05:17:20.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_-qyS1P2--zOVzue_8YR" version="14.1.2" type="github">
   <diagram id="4xm_vAh3W-rZlw4PpbCW" name="Page-1">
     <mxGraphModel dx="1298" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="cq1kmCE_dH1wWy3KrnaW-30" value="DataProcessor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cq1kmCE_dH1wWy3KrnaW-31" value="ReadingDB (postgres/TSDB)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="cq1kmCE_dH1wWy3KrnaW-31" value="HealthDataDB (postgres/TSDB)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="60" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cq1kmCE_dH1wWy3KrnaW-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.367;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cq1kmCE_dH1wWy3KrnaW-30" target="cq1kmCE_dH1wWy3KrnaW-31" edge="1">
